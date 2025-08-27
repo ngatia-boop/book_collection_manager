@@ -63,3 +63,14 @@ lib/
 - Alembic: Database migrations
 - Faker: Generate sample data
 - python-dotenv: Environment variable management
+
+## Run the Application
+
+# Initialize database
+python lib/debug.py
+
+# Seed with sample data (optional)
+python lib/db/seed.py
+
+# Run the CLI
+python lib/cli.py
