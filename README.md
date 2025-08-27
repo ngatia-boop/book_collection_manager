@@ -74,3 +74,6 @@ python lib/db/seed.py
 
 # Run the CLI
 python lib/cli.py
+
+## AUTHOR
+ANN NGATIA - MORINGA SCHOOL
