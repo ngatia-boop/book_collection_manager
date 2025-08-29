@@ -77,3 +77,6 @@ python lib/cli.py
 
 ## AUTHOR
 ANN NGATIA - MORINGA SCHOOL
+
+## License
+This project is licenced by MIT
