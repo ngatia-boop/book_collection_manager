@@ -31,7 +31,7 @@ def main():
         else:
             print("Invalid choice. Please try again.")
 
-def main_menu():
+def main_menu(): #user interface only
     print("\n📚 PERSONAL BOOK COLLECTION MANAGER")
     print("=" * 40)
     print("1. Manage Authors")
@@ -153,7 +153,7 @@ def book_menu(db):
                     
                     status_map = {
                         "1": ReadingStatus.UNREAD,
-                        "2": ReadingStatus.READING,    #menu choice mapping
+                        "2": ReadingStatus.READING,    #menu choice mapping(dicts)
                         "3": ReadingStatus.FINISHED
                     }
                     

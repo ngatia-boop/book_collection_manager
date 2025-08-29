@@ -36,7 +36,7 @@ def display_books(books, show_details=False):
     for book in books:
         status_emoji = {
             ReadingStatus.UNREAD: "📚",
-            ReadingStatus.READING: "📖",
+            ReadingStatus.READING: "📖", #status to emoji mapping(dicts)
             ReadingStatus.FINISHED: "✅"
         }
         
