@@ -25,11 +25,11 @@ class Author(Base):
     
     @classmethod
     def get_all(cls, db):
-        return db.query(cls).all()
+        return db.query(cls).all() #returns list of author objects
     
     @classmethod
     def find_by_id(cls, db, author_id):
-        return db.query(cls).filter(cls.id == author_id).first()
+        return db.query(cls).filter(cls.id == author_id).first() #return list
     
     @classmethod
     def find_by_name(cls, db, name):

@@ -153,7 +153,7 @@ def book_menu(db):
                     
                     status_map = {
                         "1": ReadingStatus.UNREAD,
-                        "2": ReadingStatus.READING,
+                        "2": ReadingStatus.READING,    #menu choice mapping
                         "3": ReadingStatus.FINISHED
                     }
                     
